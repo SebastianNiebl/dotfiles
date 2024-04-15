@@ -11,11 +11,12 @@ global.maplocalleader = " "
 -- Editor options
 
 o.number = true -- Print the line number in front
-o.relativenumber = true -- Shhow the line number relative
+o.relativenumber = true -- Show the line number relative
 o.clipboard = "unnamedplus" -- uses the clipboard for all ops except yank
 o.syntax = "on" -- loads th sytax with this name
 o.autoindent = true
 o.cursorline = false
+o.scrolloff = 5
 o.expandtab = true
 o.shiftwidth = 2
 o.tabstop = 2
