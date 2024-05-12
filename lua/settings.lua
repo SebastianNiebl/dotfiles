@@ -25,3 +25,5 @@ o.fileencoding = "utf-8"
 o.ruler = true
 o.title = true
 o.hidden = true
+
+require("settings.nvim-tree.settings")
