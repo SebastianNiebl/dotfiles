@@ -1,3 +1,3 @@
 require("lazy").setup({{import = "configs.nvim-tree"},
-                       {import = "configs.telescope"}})
-require("telescope").setup()
+                       {import = "configs.telescope"},
+                       {import = "configs.dressing-nvim"}})
