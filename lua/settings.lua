@@ -24,5 +24,8 @@ o.hidden = true
 require("settings.nvim-tree.settings")
 require("settings.telescope.settings")
 require("settings.nvim-cmp.settings")
+require("settings.lsp.mason")
+require("settings.lsp.lsp-config")
+
 
 
