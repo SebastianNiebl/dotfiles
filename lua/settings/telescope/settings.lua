@@ -1,8 +1,8 @@
 local builtin = require('telescope.builtin')
 vim.keymap.set(
-  "n", 
-  "<leader>ff", 
-  builtin.find_files, 
+  "n",
+  "<leader>ff",
+  builtin.find_files,
   { desc = "Find Files" }
 )
 vim.keymap.set(
@@ -18,56 +18,56 @@ vim.keymap.set(
   { desc = "Live Grep Code" }
 )
 vim.keymap.set(
-  "n", 
-  "<leader>fb", 
-  builtin.buffers, 
+  "n",
+  "<leader>fb",
+  builtin.buffers,
   { desc = "Find Buffers" }
 )
 vim.keymap.set(
-  "n", 
-  "<leader>fh", 
-  builtin.help_tags, 
+  "n",
+  "<leader>fh",
+  builtin.help_tags,
   { desc = "Find Help Tags" }
 )
 vim.keymap.set(
-  "n", 
-  "<leader>fs", 
-  builtin.lsp_document_symbols, 
+  "n",
+  "<leader>fs",
+  builtin.lsp_document_symbols,
   { desc = "Find Symbols" }
 )
 vim.keymap.set(
-  "n", 
-  "<leader>fi", 
-  "<cmd>AdvancedGitSearch<CR>", 
+  "n",
+  "<leader>fi",
+  "<cmd>AdvancedGitSearch<CR>",
   { desc = "AdvancedGitSearch" }
 )
 vim.keymap.set(
-  "n", 
-  "<leader>fo", 
-  builtin.oldfiles, 
+  "n",
+  "<leader>fo",
+  builtin.oldfiles,
   { desc = "Find Old Files" }
 )
 vim.keymap.set(
-  "n", 
-  "<leader>fw", 
-  builtin.grep_string, 
+  "n",
+  "<leader>fw",
+  builtin.grep_string,
   { desc = "Find Word under Cursor" }
 )
 vim.keymap.set(
-  "n", 
-  "<leader>gc", 
-  builtin.git_commits, 
+  "n",
+  "<leader>gc",
+  builtin.git_commits,
   { desc = "Search Git Commits" }
 )
 vim.keymap.set(
-  "n", 
-  "<leader>gb", 
-  builtin.git_bcommits, 
+  "n",
+  "<leader>gb",
+  builtin.git_bcommits,
   { desc = "Search Git Commits for Buffer" }
 )
 vim.keymap.set(
-  "n", 
-  "<leader>fk", 
-  builtin.keymaps, 
+  "n",
+  "<leader>fk",
+  builtin.keymaps,
   { desc = "Find Keymaps" }
 )
