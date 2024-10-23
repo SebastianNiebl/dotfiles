@@ -7,7 +7,7 @@ vim.scriptencoing = "utf-8"
 
 o.number = true -- Print the line number in front
 o.relativenumber = true -- Show the line number relative
-o.clipboard = "unnamedplus" -- uses the clipboard for all ops except yank
+--o.clipboard = "unnamedplus" -- uses the clipboard for all ops except yank
 o.syntax = "on" -- loads th sytax with this name
 o.autoindent = true
 o.cursorline = false
